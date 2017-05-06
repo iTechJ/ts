@@ -1,0 +1,31 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "http-server",
+    "webpack": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iTechJ/ts.git"
+  },
+  "keywords": [
+    "typescript",
+    "ts"
+  ],
+  "author": "itechj",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/iTechJ/ts/issues"
+  },
+  "homepage": "https://github.com/iTechJ/ts#readme",
+  "devDependencies": {
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.3.2",
+    "webpack": "^2.4.1"
+  },
+  "dependencies": {
+    "http-server": "^0.10.0"
+  }
+}
