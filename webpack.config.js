@@ -12,7 +12,8 @@ module.exports = {
         "scoping": "./scripts/scoping.ts",
         "modules": "./scripts/modules.ts",
         "module-loaders": "./scripts/module-loaders.ts",
-        "literals": "./scripts/object-literals.ts"
+        "literals": "./scripts/object-literals.ts",
+        "interfaces": "./scripts/interfaces.ts"
     },
     output: {
         path: path.resolve(__dirname, 'dist'),

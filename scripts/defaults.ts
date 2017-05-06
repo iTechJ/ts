@@ -7,6 +7,12 @@ const name1: string = "Students";
 defaults(greetings);
 defaults(greetings, name1);
 
+function notMandatory(param?: string) {
+  console.log(param);
+}
+notMandatory("param");
+notMandatory();
+
 /*****************************************/
 
 function rest(x: number, ...y: any[]): void {
